@@ -1,6 +1,6 @@
 function konversiMenit(menit) {
 	var newTime = '';
-	if (menit > 60) {
+	if (menit >= 60) {
 		var jam = Math.floor(menit / 60);
 		var sisaMenit = menit - (jam * 60);
 		if (sisaMenit < 10) {
